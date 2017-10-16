@@ -9,7 +9,7 @@ highlighter:      pygments
 # Config
 title:            freytag.org.uk
 name:             Simon Freytag
-profile:          /public/img/simon.jpg
+avatar:           /theme/img/avatar.jpg
 
 # I deploy the site under /pages on GAE, to keep Jekyll separate from other
 # projects running on there.
