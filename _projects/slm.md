@@ -1,6 +1,7 @@
 ---
 layout: defaults/page
 title: Simon Likes Maps
+permalink: projects/slm.html
 ---
 
 ##About

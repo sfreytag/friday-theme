@@ -1,6 +1,7 @@
 ---
 layout: defaults/page
 title: A Bootstrap 4 portfolio and blog theme for Jekyll
+permalink: projects/theme.html
 ---
 
 I've built my own Bootstrap 4 theme for this Jekyll site. The theme creates a web site that works as a personal homepage with an about section, a blog supporting tags and a collection of projects.
