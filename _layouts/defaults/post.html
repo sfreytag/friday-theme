@@ -1,21 +1,12 @@
 ---
 layout: default
+show_profile: false
 ---
 
 <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">{{ page.title }}</h1>
 
-<h6 class="text-secondary mb-3">{{ page.date | date_to_string }}</h6>
-
-<div class="bg-light d-flex align-items-center border rounded p-2 mb-3">
-    <span class="icon grey mr-2">
-        {%include entypo/price-tag.svg %}
-    </span>
-    {% for tag in page.tags %}
-        <a href="{{ site.baseurl }}{% link list/tags.html %}#{{ tag | slugify }}"
-           class="bg-white border rounded p-1 mr-2">
-            {{tag}}
-        </a>
-    {% endfor %}
+<div class="d-md-block d-lg-none">
+    {% include components/post-meta.html %}
 </div>
 
 {{ content }}

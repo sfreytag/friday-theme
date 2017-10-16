@@ -1,0 +1,16 @@
+{% include utilities/group-by-array.html collection=site.posts field="tags" %}
+
+<div class="card bg-light">
+    <div class="card-body">
+        <div class="card-title">
+            <h5>All Tags</h5>
+        </div>
+        {% for tag in group_names %}
+            <a class="d-inline-block bg-white border rounded p-1 mr-2 mb-2"
+               href="{{site.baseurl}}{% link list/tags.html %}#{{ tag | slugify }}"
+               onclick="$('.panel').hide(); $('#panel-{{tag | slugify}}').show();">
+                {{tag}}
+            </a>
+        {% endfor %}
+    </div>
+</div>

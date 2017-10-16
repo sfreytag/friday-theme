@@ -1,19 +1,20 @@
-# Options
-excerpt_separator: <!--more-->
+# Outputting
 permalink: /:categories/:year/:month/:day/:title.html
 
-# Dependencies
+# Conversion
 markdown:         redcarpet
 highlighter:      pygments
+excerpt_separator: <!--more-->
 
-# Config
-title:            freytag.org.uk
-name:             Simon Freytag
-avatar:           /theme/img/avatar.jpg
+# Config for your profile.
+title:            freytag.org.uk        # Site title
+name:             Simon Freytag         # Your name
+avatar:           /theme/img/avatar.jpg # Path to an avatar image
 
 # I deploy the site under /pages on GAE, to keep Jekyll separate from other
 # projects running on there. You'll probably want to set this to "/"
 baseurl: "/pages"
+
 
 
 

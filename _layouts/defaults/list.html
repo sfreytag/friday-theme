@@ -1,9 +1,17 @@
 ---
 layout: default
+show_profile: false
+show_tags: true
 ---
 
 <h5 class="list-title border border-left-0 border-right-0 py-2">
     {{ page.title }}
 </h5>
+
+{% if page.show_tags %}
+<div class="d-md-block d-lg-none">
+    {% include components/all-tags.html %}
+</div>
+{% endif %}
 
 {{ content }}
