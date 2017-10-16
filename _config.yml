@@ -1,0 +1,22 @@
+# Options
+excerpt_separator: <!--more-->
+permalink: /:categories/:year/:month/:day/:title.html
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Config
+title:            freytag.org.uk
+name:             Simon Freytag
+profile:          /public/img/simon.jpg
+
+# I deploy the site under /pages on GAE, to keep Jekyll separate from other
+# projects running on there.
+baseurl: "/pages"
+
+
+
+
+
+
