@@ -12,7 +12,7 @@ name:             Simon Freytag
 avatar:           /theme/img/avatar.jpg
 
 # I deploy the site under /pages on GAE, to keep Jekyll separate from other
-# projects running on there.
+# projects running on there. You'll probably want to set this to "/"
 baseurl: "/pages"
 
 
