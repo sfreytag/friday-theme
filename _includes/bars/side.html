@@ -1,4 +1,4 @@
-{% if page.show_profile or layout.show_profile %}
+{% if page.show_profile %}
     <div class="card bg-light">
         <div class="card-body text-center">
             {{site.author.name}}
@@ -8,10 +8,11 @@
     </div>
 {% endif %}
 
-{% if page.show_tags or layout.show_tags %}
+{% if page.show_tags %}
     {% include components/all-tags.html %}
 {% endif %}
 
 {% if page.path contains '_posts' %}
     {% include components/post-meta.html %}
 {% endif %}
+

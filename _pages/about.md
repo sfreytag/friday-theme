@@ -1,7 +1,7 @@
 ---
 layout: defaults/page
 title: Simon Freytag
-permalink: /about.html
+permalink: about.html
 ---
 
 {% include components/intro.md %}

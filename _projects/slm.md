@@ -1,19 +1,18 @@
 ---
 layout: defaults/page
 title: Simon Likes Maps
-permalink: projects/slm/about.html
 ---
 
-###About
+##About
 
 This is an ongoing hobby project, designed to solve a really simple thing: draw  a line on a British Ordnance Survey map and then share it with someone as an  idea for a walk, bike or run. It's since expanded to have other good maps, such as Austria's Kompass maps, which are great for ski touring.
 
 I use it myself all the time and have added quite a range of features. You can get started quicky by drawing and sharing a route, then advanced functions reveal themselves the more you use it. I hope it's a good example of the kind of work I can do as a freelancer.
 
-- Try it here: [http://www.simonlikesmaps.com](http://www.simonlikesmaps.com)
+- Try it at [http://www.simonlikesmaps.com](http://www.simonlikesmaps.com)
 - The full feature list [is here](http://www.simonlikesmaps.com/maps#view=HelpView/tab=tab-here)
 
-###Tech
+##Tech
 
 It uses:
 

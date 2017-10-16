@@ -1,7 +1,3 @@
----
-show_profile: true
----
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,13 +9,13 @@ show_profile: true
 
 <div class="container site-container">
     <div class="row">
-        <div class="d-none d-lg-block col-lg-4 col-xl-3">
+        <div class="d-none d-lg-block col-lg-4 col-xl-3 side">
             {% include bars/side.html %}
         </div>
-        <div class="col-md-12 col-lg-8 col-xl-9 pb-4">
+        <div class="col-md-12 col-lg-8 col-xl-9 pb-4 content">
             {{ content }}
         </div>
-        <div class="col-md-12 d-lg-none">
+        <div class="col-md-12 d-lg-none bottom">
             {% include bars/bottom.html %}
         </div>
     </div>

@@ -2,24 +2,13 @@
 layout: defaults/list
 title: Posts by tag
 permalink: list/tags.html
+show_profile: false
+show_tags: true
 ---
 
 {% include utilities/group-by-array.html collection=site.posts field="tags" %}
 
 <div>
-
-    <div class="bg-light d-flex align-items-center border rounded p-2 mb-2">
-        <span class="icon grey mr-2">
-            {%include entypo/price-tag.svg %}
-        </span>
-        {% for tag in group_names %}
-            <a class="bg-white border rounded p-1 mr-2"
-               href="#{{ tag | slugify }}"
-               onclick="$('.panel').hide(); $('#panel-{{tag | slugify}}').show();">
-                {{tag}}
-            </a>
-        {% endfor %}
-    </div>
 
     {% for tag in group_names %}
 

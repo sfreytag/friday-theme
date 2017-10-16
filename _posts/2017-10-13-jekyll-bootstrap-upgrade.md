@@ -10,4 +10,4 @@ I've upgraded this site to the latest version of Jekyll and also updated it to u
 
 <!--more-->
 
-I've put more information about this theme on a [project page here]({{ site.baseurl }}{% link projects/theme/about.md %}).
+I've put more information about this theme on a [project page here]({{ site.baseurl }}{% link _projects/theme.md %}).
