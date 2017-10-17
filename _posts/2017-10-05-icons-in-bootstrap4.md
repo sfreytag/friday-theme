@@ -5,6 +5,7 @@ tags:
   - jekyll
   - bootstrap
 ---
+
 Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying CSS classes. Bootstrap 4 doesn't have these, but does point you to some SVG icon libraries. With Jekyll's include and Bootstrap 4's flex layout, it's easy to use the SVGs inline without writing lots of icon-related CSS.
 
 <!--more-->
