@@ -5,7 +5,7 @@ permalink: index.html
 
 {% include components/intro.md %}
 
-[More about me]({{ site.baseurl }}{% link _pages/about.md %}).
+[More about me]({{ site.baseurl}}{% link _pages/about.md %})
 
 ##What else is here?
 
@@ -23,7 +23,7 @@ I'm online in a few other places. I have some open-source contributions on my [g
 
 ###Projects
 
-I work on hobby or open-source projects, mostly [Simon Likes Maps](/projects/slm/index.html). This is a route planning tool for the great outdoors with some very capable features that are not available elsewhere. It is a great example of the kind of web app I can build. There's [more projects listed here.]({{ site.baseurl }}{% link _pages/projects.md %})
+I work on hobby or open-source projects, mostly [Simon Likes Maps](/projects/slm/index.html). This is a route planning tool for the great outdoors with some very capable features that are not available elsewhere. It is a great example of the kind of web app I can build. There's [more projects listed here.]({{ site.baseurl }}{% link list/projects.md %})
 
 ###Posts
 
