@@ -3,13 +3,13 @@
         <div class="card-title">
             <h5>{{ page.date | date_to_string }}</h5>
         </div>
-        <div class="d-flex align-items-center">
-            <span class="icon grey mr-2">
+        <div class="d-flex flex-wrap align-items-center">
+            <span class="icon grey mr-2 mb-2">
                 {%include entypo/price-tag.svg %}
             </span>
             {% for tag in page.tags %}
                 <a href="{{ site.baseurl }}{% link list/tags.html %}#{{ tag | slugify }}"
-                   class="bg-white border rounded p-1 mr-2">
+                   class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                     {{tag}}
                 </a>
             {% endfor %}
