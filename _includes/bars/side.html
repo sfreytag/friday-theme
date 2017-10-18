@@ -12,7 +12,19 @@
     {% include components/all-tags.html %}
 {% endif %}
 
+{% if page.show_skills %}
+    {% include components/all-skills.html %}
+{% endif %}
+
+{% if page.path contains '_projects' %}
+    {% include components/all-projects.html %}
+{% endif %}
+
 {% if page.path contains '_posts' %}
     {% include components/post-meta.html %}
+{% endif %}
+
+{% if page.path contains '_portfolio' %}
+    {% include components/portfolio-meta.html %}
 {% endif %}
 
