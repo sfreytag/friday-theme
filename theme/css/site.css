@@ -36,4 +36,17 @@
     background-color: transparent;
 }
 
+h2[id]::before {
+    display: block;
+    height: 80px;
+    margin-top: -80px;
+    visibility: hidden;
+    content: "";
+}
+
+.sticky-top.space-before {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
 
