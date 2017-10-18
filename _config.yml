@@ -7,13 +7,13 @@ highlighter:      pygments
 excerpt_separator: <!--more-->
 
 # Config for your profile.
-title:            freytag.org.uk        # Site title
-name:             Simon Freytag         # Your name
-avatar:           /theme/img/avatar.jpg # Path to an avatar image
+title:            friday-theme.github.io  # Site title
+name:             John Smith              # Your name
+avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # I deploy the site under /pages on GAE, to keep Jekyll separate from other
 # projects running on there. You'll probably want to set this to "/"
-baseurl: "/pages"
+baseurl: ""
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
@@ -30,8 +30,9 @@ collections:
     permalink: /:collection/:name.html
 
 defaults:
-# Turn the profile sidebar on for all pages by default, except for _posts, where
-# it is off (and is replaced by post-metadata). On individual pages, use
+# Turn the profile sidebar on for all pages by default, except for the
+# collections, where it is off and replaced by useful things on the sidebar.
+# To override this one a page, use
 #    show_profile: false
 # to hide the profile.
   -
