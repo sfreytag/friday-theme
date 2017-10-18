@@ -1,11 +1,12 @@
 ---
 layout: defaults/page
 permalink: index.html
+narrow: true
 ---
 
 {% include components/intro.md %}
 
-[More about me]({{ site.baseurl}}{% link _pages/about.md %})
+[More about me.]({{ site.baseurl}}{% link _pages/about.md %})
 
 ##What else is here?
 
@@ -28,6 +29,8 @@ I work on hobby or open-source projects, mostly [Simon Likes Maps](/projects/slm
 ###Posts
 
 I post about my projects or other bits and pieces of web development. There's the three most-recent posts below, or here's [all posts by year.]({{ site.baseurl }}{% link list/posts.html %})
+
+###Recent Posts
 
 {% for post in site.posts limit:3 %}
 {% include components/post-card.html %}
