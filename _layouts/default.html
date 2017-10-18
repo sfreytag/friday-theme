@@ -7,12 +7,16 @@
 
 {% include bars/nav.html %}
 
-<div class="container site-container">
+{% capture col1 %}{% if page.narrow %}3{% else %}4{% endif %}{% endcapture %}
+
+{% capture col2 %}{% if page.narrow %}9{% else %}8{% endif %}{% endcapture %}
+
+<div class="container site-container" id="top">
     <div class="row">
-        <div class="d-none d-lg-block col-lg-4 col-xl-3 side">
+        <div class="d-none d-lg-block col-lg-4 col-xl-{{ col1 }} side">
             {% include bars/side.html %}
         </div>
-        <div class="col-md-12 col-lg-8 col-xl-9 pb-4 content">
+        <div class="col-md-12 col-lg-8 col-xl-{{ col2 }} pb-4 content">
             {{ content }}
         </div>
         <div class="col-md-12 d-lg-none bottom">
@@ -33,18 +37,17 @@
 // https://getbootstrap.com/getting-started/#support-ie10-width
 
 (function () {
-  'use strict'
+    'use strict'
 
-  if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
-    var msViewportStyle = document.createElement('style')
-    msViewportStyle.appendChild(
-      document.createTextNode(
-        '@-ms-viewport{width:auto!important}'
-      )
-    )
-    document.head.appendChild(msViewportStyle)
-  }
-
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
 }())
 </script>
 
