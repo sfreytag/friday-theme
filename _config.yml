@@ -55,6 +55,11 @@ defaults:
       path: "_projects"
     values:
       show_profile: false
-
+  -
+    scope:
+      path: "list"
+    values:
+      show_profile: false
+      layout: defaults/list
 
 
