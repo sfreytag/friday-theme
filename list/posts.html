@@ -37,7 +37,7 @@ permalink: list/posts.html
         if (document.location.hash.length > 0) {
             var tag = document.location.hash.slice(1)
             var name = $(".tag-" + tag).first().text()
-            showPortfolioByTag(tag, name)
+            showPostByTag(tag, name)
         }
         else {
             $("#currently-showing").hide()
