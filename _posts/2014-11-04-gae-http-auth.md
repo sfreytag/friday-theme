@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title:  Google App Engine HTTP Auth
 tags:
   - python

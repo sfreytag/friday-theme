@@ -16,19 +16,24 @@ avatar:           /theme/img/avatar.jpg # Path to an avatar image
 baseurl: "/pages"
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
-include: ["_pages"]
+include: ["_pages", "_portfolio"]
 
 # Turn the projects into a collection.
 collections:
   projects:
     output: true
     title: Projects
+    permalink: /:collection/:name.html
+  portfolio:
+    output: true
+    title: portfolio
+    permalink: /:collection/:name.html
 
+defaults:
 # Turn the profile sidebar on for all pages by default, except for _posts, where
 # it is off (and is replaced by post-metadata). On individual pages, use
 #    show_profile: false
 # to hide the profile.
-defaults:
   -
     scope:
       path: ""
@@ -39,8 +44,17 @@ defaults:
       path: "_posts"
     values:
       show_profile: false
-
-
+      layout: defaults/post
+  -
+    scope:
+      path: "_portfolio"
+    values:
+      show_profile: false
+  -
+    scope:
+      path: "_projects"
+    values:
+      show_profile: false
 
 
 

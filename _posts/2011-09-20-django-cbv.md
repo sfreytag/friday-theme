@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title: Django Class Based Views
 tags:
  - django

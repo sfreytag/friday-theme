@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title: OL3 and CAMS
 tags:
   - openlayers

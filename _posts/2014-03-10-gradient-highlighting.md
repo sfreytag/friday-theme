@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title: Gradient Highlighting for your Routes
 tags:
   - simon likes maps

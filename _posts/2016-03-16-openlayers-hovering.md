@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title: OL3 Feature Hovering
 tags:
   - openlayers

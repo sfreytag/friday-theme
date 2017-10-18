@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title:  Bootstrap 4 Icons in Jekyll
 tags:
   - jekyll

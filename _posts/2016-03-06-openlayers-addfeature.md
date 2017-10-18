@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title: Add an Image to an OL3 Map
 tags:
   - openlayers

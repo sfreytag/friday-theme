@@ -1,5 +1,4 @@
 ---
-layout: defaults/post
 title:  Jekyll and Bootstrap 4 Upgrade
 tags:
   - jekyll
