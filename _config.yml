@@ -3,7 +3,7 @@ permalink: /:categories/:year/:month/:day/:title.html
 
 # Conversion
 markdown:         kramdown
-highlighter:      pygments
+highlighter:      rouge
 excerpt_separator: <!--more-->
 
 # Config for your profile.
