@@ -1,6 +1,3 @@
-I'm a freelance web developer based in New Mills near Manchester, UK. I build web applications and software using JavaScript, Python, PHP and Go and web sites using systems like WordPress.
+This is the homepage of an imaginary person called John Smith who lives in London, UK. It exists as a demo of the Friday Theme, a portfolio and blog theme for Jekyll.
 
-I can work as a freelancer on your development team or I can run a project for you from start to finish.
-
-I'm always interested to hear about new projects - [send me an email]({{site.data.links.email}})
-if you have something I could work on.
+Let's imagine John Smith is a freelance software engineer. He blogs occasionally, maintains some project pages for things he has on GitHub, and has a portfolio of work that he maintains instead of a CV. Friday Theme has layouts and collections for exactly that. This web site is a demo of it in action.
