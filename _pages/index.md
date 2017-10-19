@@ -6,29 +6,28 @@ narrow: true
 
 {% include components/intro.md %}
 
-[More about me.]({{ site.baseurl}}{% link _pages/about.md %})
-
-##What else is here?
-
-I'm online in a few other places. I have some open-source contributions on my [github account]({{site.data.links.github}}). I am answering JavaScript questions on my [stackoverflow profile]({{site.data.links.soprofile}}), which is useful for keeping myself up-to-date with new technologies. I have some photos on [500px]({{site.data.links.px}}).
+[More about John.]({{ site.baseurl}}{% link _pages/about.md %})
 
 <div class="card mb-3">
-    <img id="500px" class="card-img-top" />
+    <img class="card-img-top" src = "https://drscdn.500px.org/photo/143841823/q%3D80_m%3D1500/v2?webp=true&sig=3c0fa3b75ac4098ca23a31d681a6bc4d2dc91877294fd966dd202aa5b5eb3688"/>
     <div class="card-body bg-light">
-        <div class="card-text">
-            The most recent pic from my <a href="{{site.data.links.px}}">500px feed</a>:
-            <span id="caption"></span>
-        </div>
+        <div class="card-text">A picture from when John was on holiday in the Peak District.</div>
     </div>
 </div>
 
 ###Projects
 
-I work on hobby or open-source projects, mostly [Simon Likes Maps](/projects/slm/index.html). This is a route planning tool for the great outdoors with some very capable features that are not available elsewhere. It is a great example of the kind of web app I can build. There's [more projects listed here.]({{ site.baseurl }}{% link list/projects.md %})
+John keeps himself busy on open-source and hobby projects. This is great for learning new skills. [The full list is here]({{ site.baseurl }}{% link list/projects.md %}). There's also a project page about how to [install and use this theme]({{ site.baseurl }}{% link _projects/install.md %}).
+
+
+###Portfolio
+
+John has worked in engineering for many years and has an impressive portfolio. [Browse it here.]({{ site.baseurl }}{% link list/portfolio.html %})
+
 
 ###Posts
 
-I post about my projects or other bits and pieces of web development. There's the three most-recent posts below, or here's [all posts by year.]({{ site.baseurl }}{% link list/posts.html %})
+John has posted a bunch of tips about how to use Friday Theme. There's the three most-recent posts below, or here's [all posts by year.]({{ site.baseurl }}{% link list/posts.html %})
 
 ###Recent Posts
 
@@ -36,20 +35,4 @@ I post about my projects or other bits and pieces of web development. There's th
 {% include components/post-card.html %}
 {% endfor %}
 
-<script type="text/javascript">
-    (function() {
-        $.get("https://500px.com/sifriday/rss").done(function(result) {
-            var feed = $(result)
-            var first = feed.find("item").first()
-            var description = first.find("description").text()
-            var src = $(description).find("img").attr("src")
-            $("#500px").attr("src", src)
 
-            var caption = first.find("title").text()
-            var date = new Date(first.find("pubDate").text())
-            var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-            var date_string = date.getDate() + " " + months[date.getMonth()] + " " + date.getFullYear()
-            $("#caption").html("<b>" + caption + "</b> (" + date_string + ")")
-        })
-    })()
-</script>

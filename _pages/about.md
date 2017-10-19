@@ -1,6 +1,5 @@
 ---
 layout: defaults/page
-title: Simon Freytag
 permalink: about.html
 narrow: true
 ---
@@ -9,26 +8,13 @@ narrow: true
 
 <hr />
 
-I've got 19 years commercial experience. I've worked on large projects, such as performance tuning a major investment company's fund trading web application, and small projects, such as helping charities sort out their web sites for free. I've worked in consulting as well as development and on all stages of a project's lifecycle, from pre-sales through to support, and I've led development teams and project teams.
+The about page allows you to expand a bit more on the intro. Add some more information here about your skills, experience, etc.
 
-I studied Computer Science at Cambridge University, 1997-2000.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ###Technology
 
-All used regularly within the last 3 years:
-
-* Languages and scripting
-  * Python, PHP, Go, JavaScript
-* JavaScript libraries
-  * KnockoutJS, jQuery, Angular 1.5, OpenLayers 3
-* CSS
-  * SCSS, SemanticUI, Bootstrap 3, Bootstrap 4
-* HTML5
-* Version control
-  * P4, git
-* Build
-  * Grunt, Gulp
-* Platforms and Environments
-  * Linux, Google App Engine, Android via Cordova
-* CMS
-  * WordPress, ModX, Jekyll
+* JavaScript
+* Python
+* Go
+* Etc
