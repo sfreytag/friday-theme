@@ -1,6 +1,6 @@
 ---
 layout: defaults/page
-title: Another Project
+title: Yet Another Project
 ---
 
 ## About
