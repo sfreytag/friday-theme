@@ -51,6 +51,7 @@ defaults:
       path: "_portfolio"
     values:
       show_profile: false
+      layout: defaults/portfolio
   -
     scope:
       path: "_projects"
