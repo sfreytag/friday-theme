@@ -13,7 +13,7 @@ I'm assuming you have Jekyll installed already. If not, [look here.](https://jek
 
 The installation instructions below are Linux-flavoured instructions. There's some notes on the Jekyll site [about running it on Windows](https://jekyllrb.com/docs/windows/).
 
-##Features
+## Features
 
 * A 2-column portfolio and blog theme, with support for project documentation
 * Easy to install, with minimal dependencies (but not yet packaged as a theme gem)

@@ -14,10 +14,10 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 <!--more-->
 
-##Example
+## Example
 
 <p class="d-flex align-items-center">
-    <span class="icon grey mr-2">
+    <span class="icon grey mr-2" markdown="0">
         {% include entypo/clock.svg %}
     </span>
     A clock icon in grey left-aligned
@@ -25,12 +25,12 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 <p class="d-flex align-items-center">
     A cycle icon in red right-aligned
-    <span class="icon red ml-2">
+    <span class="icon red ml-2" markdown="0">
         {% include entypo/cycle.svg %}
     </span>
 </p>
 
-##Source
+## Source
 
 {% highlight html+jinja %}
 {% raw %}
@@ -52,7 +52,7 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 {% endraw %}
 {% endhighlight %}
 
-##CSS
+## CSS
 
 The markup above uses `.icon` to control the icon's size and and `.red` or `.grey` as examples of controlling its colour.
 
