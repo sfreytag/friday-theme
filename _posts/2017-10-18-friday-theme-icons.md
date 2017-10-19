@@ -32,7 +32,7 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 ## Source
 
-{% highlight html+jinja %}
+{% highlight markdown %}
 {% raw %}
 
 <p class="d-flex align-items-center">
