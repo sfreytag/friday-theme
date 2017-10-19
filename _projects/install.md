@@ -18,6 +18,7 @@ The installation instructions below are Linux-flavoured instructions. There's so
 * A 2-column portfolio and blog theme, with support for project documentation
 * Easy to install, with minimal dependencies (but not yet packaged as a theme gem)
 * Easy to configure, with minimal options - albeit not that flexible
+* Compatible with GitHub pages
 * Responsive layout - the sidebar jumps to either top or bottom, depending on content relevance
 * Context-sensitive sidebar content - configurable if you want to change the layout, but it starts with sensible defaults
 * Boostrap 4 Beta CSS with no packaged SCSS or customisations and minimal additional theme CSS
