@@ -2,7 +2,7 @@
 permalink: /:categories/:year/:month/:day/:title.html
 
 # Conversion
-markdown:         redcarpet
+markdown:         kramdown
 highlighter:      pygments
 excerpt_separator: <!--more-->
 
