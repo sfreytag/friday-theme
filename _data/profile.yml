@@ -1,20 +1,20 @@
-- caption: Email me
-  href: mailto:simon@freytag.org.uk
-  icon: entypo/email.svg
-
-- caption: GitHub
-  href: https://github.com/sfreytag
+- caption: Friday Theme on GitHub
+  href: https://github.com/sfreytag/friday-theme
   icon: entypo/github.svg
 
 - caption: Stack Overflow
-  href: https://stackoverflow.com/cv/sifriday
+  href: https://stackoverflow.com
   icon: icons/stackoverflow.svg
 
-- caption: 500px
-  href: https://500px.com/sifriday
-  icon: entypo/github.svg
+- caption: Facebook
+  href: https://www.facebook.com
+  icon: entypo/facebook.svg
 
-- caption: New Mills
-  href: https://www.google.co.uk/maps/place/New+Mills,+High+Peak/@53.3680466,-2.0150198,15z/data=!3m1!4b1!4m5!3m4!1s0x487bcad34bb6b70d:0xe0040aa26332643e!8m2!3d53.3678916!4d-2.0047714
+- caption: Twitter
+  href: https://www.twitter.com
+  icon: entypo/twitter.svg
+
+- caption: London
+  href: https://www.google.co.uk/maps/place/London/@51.528308,-0.3817765,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583
   icon: entypo/location-pin.svg
 
