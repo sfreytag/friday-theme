@@ -1,5 +1,4 @@
 ---
-layout: defaults/page
 title: Yet Another Project
 ---
 

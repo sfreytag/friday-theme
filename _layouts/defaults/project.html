@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+    {{ page.title }}
+</h1>
+
+<div class="d-md-block d-lg-none">
+    {% include components/project-meta.html %}
+</div>
+
+{{ content }}
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var tpl = 
+            "<li class='nav-item'>\
+                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
+            </li>"
+        $("h2").each(function(idx, h2) {
+            $(h2).attr("id", "header" + idx)
+            var name = $(h2).text().trim()
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
+            var header = $(dom_string)
+            $(".header-list").append(header)
+        })
+    })
+</script>

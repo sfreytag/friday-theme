@@ -4,7 +4,7 @@
             <div class="card-title">
                 <h5>On This Page</h5>
             </div>
-            <ul class="nav flex-column nav-pills" id="header-list">
+            <ul class="nav flex-column nav-pills header-list">
             </ul>
             <div class="d-flex align-items-center mt-2">
                 <span class="icon grey mr-1">
@@ -16,18 +16,4 @@
     </div>
 </div>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        var tpl = 
-            "<li class='nav-item'>\
-                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
-        $("h2").each(function(idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $("#header-list").append(header)
-        })
-    })
-</script>
+

@@ -1,5 +1,4 @@
 ---
-layout: defaults/page
 title: Install and Use Friday Theme
 ---
 
@@ -46,7 +45,7 @@ Open `_config.yml` and change the `title` and `name` fields to your settings. Co
 
 Set a `baseurl` if needed. This lets you run your site under a folder like `/site` if need be.
 
-## Tweak the Data Files
+## Tweak the Data Files
 
 There's two data files that help create elements of the web site.
 
@@ -54,7 +53,7 @@ There's two data files that help create elements of the web site.
 
 2. `_data/profile.yml` - this contains a list of links that will be in the left-hand profile bar. Typical usage would be to add your social media and other portfolio links.
 
-## Writing Content
+## Writing Content
 
 1. `_pages/index.md` - this is the default home page.
 2. `_includes/components/intro.md` - this chunk is reused between the top of the homepage and the top of the about page.
