@@ -11,8 +11,8 @@ title:            friday-theme.github.io  # Site title
 name:             John Smith              # Your name
 avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
-# I deploy the site under /pages on GAE, to keep Jekyll separate from other
-# projects running on there. You'll probably want to set this to "/"
+# The theme uses the baseurl throughout, which is useful for running the entire
+# site under a subdir, like for this GitHub Pages deployment as a project site.
 baseurl: "/friday-theme"
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
