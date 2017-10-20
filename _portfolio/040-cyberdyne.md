@@ -8,7 +8,7 @@ skills:
   - Team Leadership
 ---
 
-## About Cyberdyne Corporation
+## About Cyberdyne Corporation
 
 Cyberdyne is initially a benign manufacturing corporation at 18144 El Camino Real, Sunnyvale, California. Its products are unsure, possibly computers or processors, but from the equipment in its factory and its high tech-sounding name, it seems possible that Cyberdyne might have been some sort of smaller parts producer for larger manufacturers of high tech equipment.
 
