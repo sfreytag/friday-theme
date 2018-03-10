@@ -1,6 +1,7 @@
 ---
-title: Engineer, Acme Corp
+title: Acme Corp
 duration: Feb 2012 - May 2013
+role: Engineer
 skills:
   - Python
   - JavaScript

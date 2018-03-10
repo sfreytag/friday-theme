@@ -1,7 +1,6 @@
 ---
-title: Senior Engineer, Umbrella Corporation
-layout: defaults/portfolio
-tabid: acidy
+title: Umbrella Corporation
+role: Senior Engineer
 duration: June 2014 - May 2015
 skills:
   - XML

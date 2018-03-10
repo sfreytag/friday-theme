@@ -1,6 +1,7 @@
 ---
-title: Chief Architect, Wayne Enterprises
+title: Wayne Enterprises
 duration: Jan 2016 - present
+role: Chief Architect
 skills:
   - Team Leadership
   - Technical Architecture

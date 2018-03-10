@@ -8,26 +8,20 @@ narrow: true
 
 [More about John.]({{ site.baseurl}}{% link _pages/about.md %})
 
+### What else?
+
+John keeps himself busy on open-source and hobby projects. This is great for learning new skills. [The full list is here]({{ site.baseurl }}{% link list/projects.md %}). There's also a project page about how to [install and use this theme]({{ site.baseurl }}{% link _projects/install.md %}).
+
+John has worked in engineering for many years and has an impressive portfolio. [Browse it here.]({{ site.baseurl }}{% link list/portfolio.html %})
+
+John has posted a bunch of tips about how to use Friday Theme. There's the three most-recent posts below, or here's [all posts by year.]({{ site.baseurl }}{% link list/posts.html %})
+
 <div class="card mb-3">
-    <img class="card-img-top" src = "https://drscdn.500px.org/photo/143841823/q%3D80_m%3D1500/v2?webp=true&sig=3c0fa3b75ac4098ca23a31d681a6bc4d2dc91877294fd966dd202aa5b5eb3688"/>
+    <img class="card-img-top" src="https://images.unsplash.com/photo-1516358045903-b686e6bd3814?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=beab09d3410d08c33d34a47af0a7b99d&auto=format&fit=crop&w=1652&q=80"/>
     <div class="card-body bg-light">
         <div class="card-text">A picture from when John was on holiday in the Peak District.</div>
     </div>
 </div>
-
-### Projects
-
-John keeps himself busy on open-source and hobby projects. This is great for learning new skills. [The full list is here]({{ site.baseurl }}{% link list/projects.md %}). There's also a project page about how to [install and use this theme]({{ site.baseurl }}{% link _projects/install.md %}).
-
-
-### Portfolio
-
-John has worked in engineering for many years and has an impressive portfolio. [Browse it here.]({{ site.baseurl }}{% link list/portfolio.html %})
-
-
-### Posts
-
-John has posted a bunch of tips about how to use Friday Theme. There's the three most-recent posts below, or here's [all posts by year.]({{ site.baseurl }}{% link list/posts.html %})
 
 ### Recent Posts
 
