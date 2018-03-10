@@ -23,16 +23,21 @@ permalink: list/portfolio.html
 {% endfor %}
 
 <script type="text/javascript">
-    $(document).ready(function() {
+
+    var parseHash = function() {
         if (document.location.hash.length > 0) {
             var skill = document.location.hash.slice(1)
             var name = $(".skill-" + skill).first().text()
             showPortfolioBySkill(skill, name)
         }
         else {
-            $("#currently-showing").hide()
+            clearSkills()
         }
-    })
+    }
+
+    $(document).ready(parseHash)
+
+    $(window).on('hashchange', parseHash)
 
     var showPortfolioBySkill = function(skill, name) {
         $("#currently-showing").show()

@@ -8,8 +8,7 @@
             </div>
             {% for tag in group_names %}
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-{{ tag | slugify }}"
-                   href="javascript:void(0)"
-                   onclick="showPostByTag('{{ tag | slugify }}', '{{ tag }}')">
+                   href="#{{tag | slugify}}">
                     {{ tag }}
                 </a>
             {% endfor %}

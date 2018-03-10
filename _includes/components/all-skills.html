@@ -8,8 +8,7 @@
             </div>
             {% for skill in group_names %}
                 <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 skill skill-{{ skill | slugify }}"
-                   href="#{{ skill | slugify }}"
-                   onclick="showPortfolioBySkill('{{ skill | slugify }}', '{{ skill }}')">
+                   href="#{{ skill | slugify }}">
                     {{skill}}
                 </a>
             {% endfor %}

@@ -33,16 +33,21 @@ permalink: list/posts.html
 {% endfor %}
 
 <script type="text/javascript">
-    $(document).ready(function() {
+
+    var parseHash = function() {
         if (document.location.hash.length > 0) {
             var tag = document.location.hash.slice(1)
             var name = $(".tag-" + tag).first().text()
             showPostByTag(tag, name)
         }
         else {
-            $("#currently-showing").hide()
+            clearTags()
         }
-    })
+    }
+
+    $(document).ready(parseHash);
+
+    $(window).on('hashchange', parseHash);
 
     var showPostByTag = function(tag, name) {
         $("#currently-showing").show()
