@@ -7,17 +7,20 @@ tags:
   - Markdown
   - Liquid
 images:
-  - https://drscdn.500px.org/photo/27650373/q%3D80_m%3D1500/v2?webp=true&sig=b93755ce6bc67c76727d51f8ea06e7354183b726bb39ab6923675a0f78d15340
-  - https://drscdn.500px.org/photo/143841823/q%3D80_m%3D1500/v2?webp=true&sig=3c0fa3b75ac4098ca23a31d681a6bc4d2dc91877294fd966dd202aa5b5eb3688
-  - https://drscdn.500px.org/photo/191261527/q%3D80_m%3D1500/v2?webp=true&sig=a87172cb288974b2e661d49fa126897151fc0568e326b1727fba380903e60c0d
-  - https://drscdn.500px.org/photo/63494571/q%3D80_m%3D1500/v2?webp=true&sig=061dd3315a09b2698cf44e6cd417a3c12021201bc86eb46cfbbeeb26fafbc306
-  - https://drscdn.500px.org/photo/58752896/q%3D80_m%3D1500/v2?webp=true&sig=0579a4076dc275fc34d6048a89fafc52a4e541c09e3e767abc7049389936794c
-  - https://drscdn.500px.org/photo/58752894/q%3D80_m%3D1500/v2?webp=true&sig=04461c385ab36dde0926a008be5e63673452e1e4a748438161300317f7085d02
+  - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
+  - https://images.unsplash.com/photo-1445962125599-30f582ac21f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38c096c472ba616dc4e8e76a8069c97a&auto=format&fit=crop&w=668&q=80
+  - https://images.unsplash.com/photo-1504626835342-6b01071d182e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=975855d515c9d56352ee3bfe74287f2b&auto=format&fit=crop&w=1651&q=80
+  - https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=468a8c18f5d811cf03c654b653b5089e&auto=format&fit=crop&w=1650&q=80
+  - https://images.unsplash.com/photo-1506291318501-948562d765d7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=71ad8e3b7b4bd210182ed5e5c024903b&auto=format&fit=crop&w=1650&q=80
+  - https://images.unsplash.com/photo-1500370414137-9201565cf099?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=95e700b9e28eb7ed7b5769c823741126&auto=format&fit=crop&w=668&q=80
+  - https://images.unsplash.com/photo-1500402448245-d49c5229c564?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f19c590b253f803a7f9b643c59017160&auto=format&fit=crop&w=1650&q=80
 ---
 
-Here's an example for multiuple images that uses Bootstrap's card columns for a Masonry-like layout. It's not perfect, but with some careful ordering of the images, you can get some good results. THis example also shows some Liquid tags used in conjunction with frontmatter variables.
+Here's an example for multiple images that uses Bootstrap's card columns for a Masonry-like layout. It's not perfect, but with some careful ordering of the images, you can get some good results. This example also shows some Liquid tags used in conjunction with frontmatter variables to automatically create your layout.
 
 <!--more-->
+
+To automate the layout, a list of images is stored in a frontmatter variable. The post then loops over that list to output the cards. This is easier than copy-pasting the same HTML for each image.
 
 Here's the card columns in action.
 
@@ -28,6 +31,8 @@ Here's the card columns in action.
     </div>
     {% endfor %}
 </div>
+
+(The photos are from [Unsplash](http://www.unsplash.com)!)
 
 
 
