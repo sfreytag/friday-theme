@@ -1,0 +1,11 @@
+---
+---
+
+// Customise bootstrap, and set site-wide variables.
+@import 'theme/_sass/variables';
+
+// Include Bootstrap.
+@import 'theme/_sass/bootstrap/bootstrap';
+
+// Include SCSS for the theme itself.
+@import 'theme/_sass/theme';
