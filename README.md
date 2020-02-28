@@ -8,3 +8,4 @@
 
 The theme is free to use, but if you do use it, it would be great to hear from you. Email simon@freytag.org.uk - thanks!
 
+__Watch out!__ This theme uses {{site.baseurl}} throughout, so is not currently suitable for Jekyll 4. It works well with 3.8.5 and works well with GitHub Pages.
