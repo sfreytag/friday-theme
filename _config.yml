@@ -18,6 +18,10 @@ baseurl: "/friday-theme"
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
 
+sass:
+  sass_dir: theme/_sass
+  style: compressed
+
 # Turn the projects into a collection.
 collections:
   projects:
