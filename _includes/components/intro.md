@@ -1,3 +1,3 @@
-This is the homepage of an imaginary person called John Smith who lives in London, UK. It exists as a demo of the Friday Theme, which is a portfolio and blog theme for Jekyll.
+Friday Theme is a theme for Jekyll using Bootstrap 4.4 designed to build a great personal web site with a portfolio, blog and project documentation. It is compatible with GitHub Pages. It supports all the Bootstrap components, it has blogs with tags, it has syntax highlighting and it has SVG icons. It is customisable with SCSS by simply changing the default boostrap variables.
 
-Let's imagine John Smith is a freelance software engineer. He blogs occasionally, maintains some project pages for things he has on GitHub, and has a portfolio of work that he maintains instead of a CV. Friday Theme has layouts and collections for exactly that. This web site is a demo of it in action.
+It is maintained by Simon Freytag on [GitHub](https://github.com/sfreytag/friday-theme) and it was built originally for [Simon's own portfolio](http://www.freytag.org.uk).
