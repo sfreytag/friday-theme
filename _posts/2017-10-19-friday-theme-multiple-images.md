@@ -1,11 +1,12 @@
 ---
-title:  How to use Multiple Images
+title:  How to use Multiple Images in a Masonry-style layout
 tags:
   - Friday Theme
   - HTML
   - images
   - Markdown
   - Liquid
+  - Image Gallery
 images:
   - https://images.unsplash.com/photo-1421789665209-c9b2a435e3dc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5b1016b885e7438c4633109d77368d4d&auto=format&fit=crop&w=1651&q=80
   - https://images.unsplash.com/photo-1445962125599-30f582ac21f4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38c096c472ba616dc4e8e76a8069c97a&auto=format&fit=crop&w=668&q=80
