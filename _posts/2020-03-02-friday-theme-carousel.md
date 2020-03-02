@@ -82,3 +82,5 @@ And then add the following block of HTML:
 
 {% endraw %}
 {% endhighlight %}
+
+You could extend this idea by combining it with a modal to show the carousel in fullscreen mode.
