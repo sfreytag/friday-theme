@@ -5,7 +5,7 @@
 * Example 1: This repo builds directly to GitHub pages, which is also the documentation:  https://sfreytag.github.io/friday-theme/
 * Example 2: my own homepage, http://www.freytag.org.uk
 
-## Get Started
+## Get Started
 
 Follow the [install notes](https://sfreytag.github.io/friday-theme/projects/install.html).
 
