@@ -55,13 +55,14 @@ h2[id]::before {
 }
 
 @media print {
-    .card-portfolio {
-        page-break-inside: avoid !important;
-        padding-top: 50px;
+    body {
+        -webkit-print-color-adjust: exact !important;
     }
     .jumbotron {
         padding: 0;
     }
+    .badge {
+        border: 0 !important;
+    }
 }
-
 
