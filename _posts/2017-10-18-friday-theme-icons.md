@@ -6,11 +6,11 @@ tags:
   - CSS
 ---
 
-Here's how to use the Entypo icons in the Friday Theme as SVGs It's easy with Jekyll's include tag and Bootstrap 4 classes.
+Here's how to use the Entypo icons in the Friday Theme as SVGs It's easy with Jekyll's include tag and Bootstrap 5 classes.
 
 <!--more-->
 
-Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying CSS classes. Bootstrap 4 doesn't have these, but does point you to some SVG icon libraries. With Jekyll's include and Bootstrap 4's flex layout, it's easy to use the SVGs inline without writing lots of icon-related CSS.
+Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying CSS classes. Bootstrap 5 doesn't have these, but does point you to some SVG icon libraries. With Jekyll's include and Bootstrap 5's flex layout, it's easy to use the SVGs inline without writing lots of icon-related CSS.
 
 <!--more-->
 

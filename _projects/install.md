@@ -6,7 +6,7 @@ title: Install and Use Friday Theme
 
 Friday Theme creates a web site that works as a personal homepage with an about section, a blog supporting tags and a collection of projects.
 
-It is quick to configure and simple to use. It is styled almost entirely with Bootstrap 4 so you can roll your own Bootstrap 4 theme for complete customisation.
+It is quick to configure and simple to use. It is styled almost entirely with Bootstrap 5 so you can roll your own Bootstrap 5 theme for complete customisation.
 
 I'm assuming you have Jekyll installed already. If not, [look here.](https://jekyllrb.com/docs/installation/)
 

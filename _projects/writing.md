@@ -12,4 +12,4 @@ title: Writing Content for Friday Theme
 
 ## HTML Content
 
-Jekyll lets you mix HTML into Markdown in the content, so it is possible to add HTML content. You can use this to utilise Bootstrap 4's components. The [blog posts]({{ site.baseurl }}{% link list/posts.html %}) have some examples.
+Jekyll lets you mix HTML into Markdown in the content, so it is possible to add HTML content. You can use this to utilise Bootstrap 5's components. The [blog posts]({{ site.baseurl }}{% link list/posts.html %}) have some examples.
