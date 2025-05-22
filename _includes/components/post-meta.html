@@ -5,18 +5,18 @@
                 <h5>{{ page.date | date_to_string }}</h5>
             </div>
             <div class="d-flex flex-wrap align-items-center">
-                <span class="icon grey mr-2 mb-2">
+                <span class="icon grey me-2 mb-2">
                     {%include entypo/price-tag.svg %}
                 </span>
                 {% for tag in page.tags %}
                     <a href="{{ site.baseurl }}{% link list/posts.html %}#{{ tag | slugify }}"
-                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                       class="bg-white border rounded p-1 me-2 mb-2 d-inline-block">
                         {{ tag }}
                     </a>
                 {% endfor %}
             </div>
             <div class="d-flex align-items-center mt-2">
-                <span class="icon grey mr-1">
+                <span class="icon grey me-1">
                     {% include entypo/arrow-left.svg %}
                 </span>
                 <a href="{{ site.baseurl }}{% link list/posts.html %}">Back to all posts</a>

@@ -7,7 +7,7 @@
                 <h5>Filter by Tag</h5>
             </div>
             {% for tag in group_names %}
-                <a class="d-inline-block bg-white border rounded p-1 mr-1 mb-1 tag tag-{{ tag | slugify }}"
+                <a class="d-inline-block bg-white border rounded p-1 me-1 mb-1 tag tag-{{ tag | slugify }}"
                    href="#{{tag | slugify}}">
                     {{ tag }}
                 </a>

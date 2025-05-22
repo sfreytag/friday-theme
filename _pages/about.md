@@ -109,19 +109,19 @@ The spinner.
 There's a suite of hundreds of Entypo icons included, here's just a few.
 
 <div class="d-flex align-items-center mb-4">
-    <span class="icon grey mr-2">
+    <span class="icon grey me-2">
         {% include entypo/clock.svg %}
     </span>
-    <span class="icon grey mr-2">
+    <span class="icon grey me-2">
         {% include entypo/cycle.svg %}
     </span>
-    <span class="icon grey mr-2">
+    <span class="icon grey me-2">
         {% include entypo/chevron-up.svg %}
     </span>
-    <span class="icon grey mr-2">
+    <span class="icon grey me-2">
         {% include entypo/new-message.svg %}
     </span>
-    <span class="icon grey mr-2">
+    <span class="icon grey me-2">
         {% include entypo/shopping-cart.svg %}
     </span>
 </div>

@@ -7,12 +7,12 @@
             {{ post.date | date_to_string }}
         </h6>
         <div class="card-text d-flex align-items-center mb-2">
-            <span class="icon grey mr-2 mb-1">
+            <span class="icon grey me-2 mb-1">
                 {% include entypo/price-tag.svg %}
             </span>
             <div>
                 {% for tag in post.tags %}
-                    <span class="d-inline-block border rounded p-1 mr-1 mb-1 tag tag-{{ tag | slugify}}">
+                    <span class="d-inline-block border rounded p-1 me-1 mb-1 tag tag-{{ tag | slugify}}">
                         {{ tag }}
                     </span>
                 {% endfor %}

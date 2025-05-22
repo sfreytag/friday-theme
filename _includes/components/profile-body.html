@@ -1,7 +1,7 @@
 <p class="card-text">
     {% for link in site.data.profile %}
     <a href="{{link.href}}" class="d-flex align-items-center mb-1">
-        <span class="icon grey mr-2">
+        <span class="icon grey me-2">
             {% include {{link.icon}} %}
         </span>
         <span class="text-nowrap">{{link.caption}}</span>
