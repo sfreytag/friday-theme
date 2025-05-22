@@ -3,6 +3,9 @@
 // https://github.com/twbs/bootstrap/blob/master/scss/_variables.scss
 // for things to override.
 
-// Set the primarys colour to green.
+// Set the primary colour to green.
 $green: #28a745 !default;
 $primary: $green !default;
+
+// Remove the link decoration (underline)
+$link-decoration: none;
