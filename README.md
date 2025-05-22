@@ -5,6 +5,13 @@
 * Example 1: This repo builds directly to GitHub pages, which is also the documentation:  https://sfreytag.github.io/friday-theme/
 * Example 2: my own homepage, http://www.freytag.org.uk
 
+## Quick Start
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
 ## Get Started
 
 Follow the [install notes](https://sfreytag.github.io/friday-theme/projects/install.html).
@@ -15,7 +22,7 @@ The theme is free to use, but if you do use it, it would be great to hear from y
 
 ## Comaptible with Jekyll 4 and GitHub pages
 
-This theme uses {{site.baseurl}} throughout.
+This theme uses `{{site.baseurl}}` throughout.
 
 This means it works well gith GitHub pages and Jekyll 3.9, where the site is served out of a folder - eg https://sfreytag.github.io/friday-theme/
 

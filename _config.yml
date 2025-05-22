@@ -13,7 +13,7 @@ avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
-# Use "" when runnign the site out of the root of a domain.
+# Use "" when running the site out of the root of a domain.
 baseurl: "/friday-theme"
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
