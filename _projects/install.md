@@ -26,7 +26,10 @@ If it does, you can begin customising it.
 
 Open `_config.yml` and change the `title` and `name` fields to your settings. Copy your own avatar image to `/theme/img/avatar.jpg` - it helps if this image is square.
 
-Set a `baseurl` if needed. This lets you run your site under a folder like `/site` if need be.
+Set a `baseurl` if needed. This lets you run your site under a folder like `/site` if need be:
+
+- **Jekyll 3.9 with GitHub pages**: you must set a baseurl to match your repository
+- **Jekyll 4.* with localhost or other hosts**: you must set baseurl to `""` and serve the site from the root of your domain
 
 ## Tweak the Data Files
 

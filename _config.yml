@@ -13,7 +13,12 @@ avatar:           /theme/img/avatar.jpg   # Path to an avatar image
 
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
-# Use "" when running the site out of the root of a domain.
+# Use "" when running the site out of the root of a domain.
+#
+# Jekyll 3.9 / GitHub Pages - set baseurl to the folder used by your repo
+#
+# Jekyll 4.* / localhost or other hosts - set baseurl to "" and serve the site
+# from the root of your domain
 baseurl: "/friday-theme"
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
