@@ -41,9 +41,11 @@ In May 2025 this theme was upgraded to use Bootstrap 5. To upgrade your older Fr
 1. Add the Bootstrap 5.2.3 SCSS files
 2. Update site.scss to load Boostrap 5
 3. Update classes. The theme needs `ml-`, `mr-`, `border-left-` and `border-right-` to be updated to `ms-`, `me-`, `border-start-`, and `border-end-`. You might have added other classes that need updating.
-4. Add the Bootstrap 5.3 compiled JS files
+4. Replace the JS with the Bootstrap 5.3 compiled JS files
 5. Update the class `sr-only` to `visually-hidden`
 6. Fix the components that use JS. This mostly requires attributes like `data-toggle` to become `data-bs-toggle`
 7. Remove the Masonry / `.card-columns` layout if you were using it Unfortunately Bootstrap5 no longer supports it.
 8. Add a rule to `_variables.scss` to remove link underlines
 9. Remove the old Boostrap SCSS files
+
+You may be able to achieve this by merging this up into your own homepage, if it has not diverged too far away from it.
