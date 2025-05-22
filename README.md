@@ -7,9 +7,9 @@
 
 ## Quick Start
 
-Jekyll 4.* on localhost.
+For Jekyll 4.* on localhost, clone this repo then from within it:
 
-Set baseurl to `""` in `_config.yml` then:
+Set baseurl to `""` in `_config.yml` then run: 
 
 ```
 bundle install
