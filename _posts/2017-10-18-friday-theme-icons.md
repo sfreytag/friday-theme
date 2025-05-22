@@ -25,7 +25,7 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 <p class="d-flex align-items-center">
     A cycle icon in red right-aligned
-    <span class="icon red ml-2" markdown="0">
+    <span class="icon red ms-2" markdown="0">
         {% include entypo/cycle.svg %}
     </span>
 </p>
@@ -44,7 +44,7 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 <p class="d-flex align-items-center">
     A cycle icon in red right-aligned
-    <span class="icon red ml-2">
+    <span class="icon red ms-2">
         {% include entypo/cycle.svg %}
     </span>
 </p>
@@ -56,7 +56,7 @@ Bootstrap 3 shipped with the Glyphicons built-in as icon files and accompanying 
 
 The markup above uses `.icon` to control the icon's size and and `.red` or `.grey` as examples of controlling its colour.
 
-Bootstrap takes care of the layout. `d-flex align-items-center` ensures the icon is vertically aligned along the center line with the accompanying content and `ml-2` and `me-2` take care of horizontal spacing.
+Bootstrap takes care of the layout. `d-flex align-items-center` ensures the icon is vertically aligned along the center line with the accompanying content and `ms-2` and `me-2` take care of horizontal spacing.
 
 The following CSS is already in `theme/css/site.css` and can easily be extended for different colours.
 

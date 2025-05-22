@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ms-auto">
             {% for item in site.data.nav %}
                 <li class="nav-item">
                     <a href='{% if item.href contains ":" %}{% else %}{{ site.baseurl }}/{% endif %}{{ item.href }}'
