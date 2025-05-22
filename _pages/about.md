@@ -101,7 +101,7 @@ And this is a more sophisticated example, using the JS to include a carousel of 
 The spinner.
 
 <div class="spinner-border text-dark mb-4" role="status">
-  <span class="sr-only">Loading...</span>
+  <span class="visually-hidden">Loading...</span>
 </div>
 
 ### Icons
