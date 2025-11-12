@@ -30,7 +30,7 @@ The theme is free to use, but if you do use it, it would be great to hear from y
 
 This theme uses `{{site.baseurl}}` throughout for compatibility with GitHub Pages running Jekyll 3.9 or 3.10 where the site is served out of a folder - eg https://sfreytag.github.io/friday-theme/. The current GitHub versions are [here](https://pages.github.com/versions.json).
 
-It also works with Jekyll 4.* and where the site is served out of the root of the domain - eg https://www.freytag.org.uk
+It also works with Jekyll 4.* and where the site is served out of the root of the domain.
 
 However, this means you cannot use Jekyll 4.* and a folder - the base URL will get repeated in the links. For Jekyll 4.* you *must* serve it from the root of the domain.
 
