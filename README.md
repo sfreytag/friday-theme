@@ -26,7 +26,7 @@ There's more installation information in the [install notes](https://sfreytag.gi
 
 The theme is free to use, but if you do use it, it would be great to hear from you. Email simon@freytag.org.uk - thanks!
 
-## Compatible with Jekyll 4 and 3.9 for GitHub pages
+## Compatible with Jekyll 4, and also 3.10 for GitHub pages
 
 This theme uses `{{site.baseurl}}` throughout for compatibility with GitHub Pages running Jekyll 3.9 or 3.10 where the site is served out of a folder - eg https://sfreytag.github.io/friday-theme/. The current GitHub versions are [here](https://pages.github.com/versions.json).
 
