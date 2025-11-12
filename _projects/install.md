@@ -15,7 +15,7 @@ The installation instructions below are Linux-flavoured instructions. There's so
 ## Download and Install
 
 1. Create a directory for your new site.
-2. Download this repo into it from [GitHub](https://github.com/sfreytag/friday-theme). (Sorry, this theme is not available as a theme gem yet).
+2. Clone this repo into it from [GitHub](https://github.com/sfreytag/friday-theme). (Sorry, this theme is not available as a theme gem yet).
 3. If using Ruby3, run `bundle install`
 3. cd to your directory and run either `bundle exec jekyll serve` (Ruby 3) or just `jekyll serve` for older versions. This theme uses `markdown` and `pygments` so if they are missing, install them with `gem install pygments`, etc
 4. Open the resulting site (probably `http://localhost:4000`) in your browser to check it works
